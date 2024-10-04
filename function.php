@@ -2,13 +2,16 @@
 
 function headlineTitleCase($string) {
 	
-	//Derived from New York Times and (old) Los Angeles Times headline style
-	//Future considerations would be to capitalize "up," "yet" and other words when they are in conjunctions like "Grow Up" or "Take Out"
-	//Future consideration would be to capitalize propositions that become adverbs: Drops In, Drones Out, Stands By, etc.
-	//Idioms should remain lowercased: Call on, Call for
-	//When proposition takes the place of a verb, it should be capitalized as well
-	//Double-vowed words like Co-op should be lowercased
-	//Perfect style would be to additionally capitalize all nouns, pronouns and verbs, and all other words of four or more letters
+//Derived from New York Times and (old) Los Angeles Times headline style
+//Future considerations would be to capitalize "up," "yet" and other 
+// words when they are used in conjunctions like "Grow Up" or "Take Out"
+//Future consideration would be to capitalize propositions that become 
+// adverbs: Drops In, Drones Out, Stands By, etc.
+//Idioms should remain lowercased: Call on, Call for
+//When proposition takes the place of a verb, it should be capitalized as well
+//Double-vowed words like Co-op should be lowercased
+//Perfect style would be to additionally capitalize all nouns, pronouns 
+// and verbs, and all other words of four or more letters
 	
     // List of exceptions that should not be capitalized
     $exceptions = [
